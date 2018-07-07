@@ -1,6 +1,6 @@
-FROM debian:jessie
+FROM debian:stretch
 
-MAINTAINER Oluwaseun Obajobi "oluwaseun.obajobi@namshi.com"
+MAINTAINER Abhinav Sarkar "abhinav@abhinavsarkar.net"
 
 RUN apt-get update && \
     apt-get install -y exim4-daemon-light && \
